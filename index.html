@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
+</head>
+
+<body>
+    <h1>Password Generator</h1>
+    <div class="center">
+    <div id="box" class="card text-center">
+        <div class="card-body">
+            <h2 class="card-title text-left">Generate a Password</h2>
+            <hr>
+            <textarea id="passwordArea" placeholder="Your Secure Password."></textarea>
+            <hr>
+            <div class="d-flex" id="buttons">
+                <button type="button" onclick="generatePassword()" class="btn btn-danger" id="buttonMake">Generate Password</button>
+                <button type="button" onclick="myFunction()" class="btn btn-secondary" id="buttonCopy">Copy to Clipboard</button>
+            </div>
+        </div>    
+    </div>
+    </div>
+</body>
+</html>
